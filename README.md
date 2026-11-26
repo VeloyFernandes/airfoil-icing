@@ -10,7 +10,7 @@ the flow field up:
 | Ice | Rime growth along the surface normal in layers, flow and trajectories recomputed on each new shape, mass conserved |
 | Drag | Integral boundary layer: Thwaites, Michel transition, Head, Squire-Young |
 
-**Interactive simulator:** https://veloyfernandes.github.io/icing/
+**Interactive simulator:** https://veloyfernandes.com/icing/
 
 ![Rime ice shapes at 0, 4 and 8 degrees](docs/figures/ice_shapes.png)
 
