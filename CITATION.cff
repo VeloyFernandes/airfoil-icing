@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Rime icing on an airfoil"
+abstract: "Rime ice accretion on a NACA 2412 section and its aerodynamic penalty, from a panel method, Lagrangian droplet trajectories and an integral boundary layer."
+authors:
+  - family-names: Fernandes
+    given-names: Veloy
+type: software
+license: MIT
+repository-code: "https://github.com/VeloyFernandes/airfoil-icing"
+url: "https://veloyfernandes.com/icing/"
+date-released: 2026-11-26
+keywords:
+  - icing
+  - wind energy
+  - airfoil
+  - panel method
+  - boundary layer

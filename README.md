@@ -108,6 +108,59 @@ it, so separation behind the ice, ice roughness and stall are not captured, and
 the drag of the iced section is a lower bound. One droplet size, no gravity,
 two dimensions.
 
+## References
+
+1. J. L. Hess and A. M. O. Smith (1967). Calculation of potential flow about
+   arbitrary bodies. *Progress in Aerospace Sciences* 8, 1-138.
+2. J. Katz and A. Plotkin (2001). *Low-Speed Aerodynamics*, 2nd ed. Cambridge
+   University Press.
+3. I. H. Abbott and A. E. von Doenhoff (1959). *Theory of Wing Sections*. Dover.
+   NACA four-digit section geometry.
+4. L. Schiller and A. Naumann (1933). Über die grundlegenden Berechnungen bei
+   der Schwerkraftaufbereitung. *Zeitschrift des Vereines Deutscher Ingenieure*
+   77, 318-320.
+5. B. Thwaites (1949). Approximate calculation of the laminar boundary layer.
+   *Aeronautical Quarterly* 1, 245-280.
+6. R. Michel (1951). *Étude de la transition sur les profils d'aile*. ONERA
+   Report 1/1578A.
+7. M. R. Head (1958). *Entrainment in the turbulent boundary layer*.
+   Aeronautical Research Council R&M 3152.
+8. H. B. Squire and A. D. Young (1938). *The calculation of the profile drag of
+   aerofoils*. Aeronautical Research Council R&M 1838.
+9. J. B. Barlow, W. H. Rae and A. Pope (1999). *Low-Speed Wind Tunnel Testing*,
+   3rd ed. Wiley. Blockage corrections.
+10. P. J. Roache (1994). Perspective: a method for uniform reporting of grid
+    refinement studies. *Journal of Fluids Engineering* 116(3), 405-413.
+11. I. B. Celik et al. (2008). Procedure for estimation and reporting of
+    uncertainty due to discretization in CFD applications. *Journal of Fluids
+    Engineering* 130(7), 078001.
+12. A. Kyawo, D. Arslanbek, V. Fernandes and Z. Bohlooli Zanjani (2024).
+    *CFD and Experimental Analysis of the Ice Accretion Effects on Wind Turbine
+    Performance*. Semester project report, Aalborg University Esbjerg.
+
+## Declarations
+
+- **Authorship.** The code, figures and analysis in this repository are my own
+  work. The experimental and CFD values in
+  [`icing/report_data.py`](icing/report_data.py) come from the group report
+  (reference 12) and are credited to all four of its authors; they are
+  reproduced here only for comparison.
+- **Independence.** This is a personal project. It has not been reviewed or
+  endorsed by Aalborg University or by the project supervisor, and the
+  corrections listed above are my own reading of the report.
+- **No commercial software or data.** Nothing from Ansys software is
+  included; FENSAP-ICE and Fluent results appear only as numbers quoted from
+  the report.
+- **Trademarks.** Ansys, Fluent and FENSAP-ICE are trademarks of Ansys, Inc.
+  They are named only to describe the original study.
+
+## Citing
+
+If you use this code, please cite it with the metadata in
+[`CITATION.cff`](CITATION.cff) (GitHub shows a "Cite this repository" button).
+
 ## Licence
 
-MIT
+The code is released under the [MIT Licence](LICENSE). The project data in
+`icing/report_data.py` remain the work of the report's authors; please cite
+reference 12 if you use them.
